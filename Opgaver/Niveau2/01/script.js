@@ -1,2 +1,17 @@
+let buttons = document.querySelectorAll('.btn');
+let lastClickedButton = null;
 
-let buttons = document.getElementById('buttons') 
+buttons.forEach(button => {
+    button.addEventListener("click", function() {
+
+        if (lastClickedButton) {
+            lastClickedButton.style.background = ""; 
+        }
+        
+
+        this.style.background = "#77FF00"; 
+        
+    
+        lastClickedButton = this; 
+    });
+});
