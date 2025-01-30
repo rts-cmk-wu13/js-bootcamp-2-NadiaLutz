@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 6rem;
+  
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    border-bottom: 1px solid black;
+    margin-block-end: 1rem;
+}
+
+figcaption span {
+    font-size: 2rem;
+    color: rgb(72, 72, 72);
+}
+
+img {
+    width: 30rem;
+}
+
+button {
+    padding-inline: 0.75rem;
+    margin-inline: 1rem;
+    font-size: 1.5rem;
+}
+
+.amount {
+    margin-block: 1rem;
+    width: 2rem;
+}
+
+input {
+    padding-inline: 0.5rem;
+}
+
+.selected {
+    border: 2px solid rgb(246, 197, 111);
+    border-radius: 1rem;
+    padding: 1rem;
+}
