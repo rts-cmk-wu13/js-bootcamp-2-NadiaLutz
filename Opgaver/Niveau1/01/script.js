@@ -12,3 +12,9 @@ colorBtn.addEventListener('click', function() {
   })
 
    
+
+  // button.addEventListener("click", function() {
+  //   button.classList.toggle("click")
+  // })
+
+  9

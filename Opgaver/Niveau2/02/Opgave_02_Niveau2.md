@@ -38,3 +38,5 @@ Hvis det giver dig problemer i Javascript, at der er 3 produkter at arbejde med,
 Der SKAL dog vises 3 produkter på siden.
 
 Husk at følge **BEM konventionen**
+
+
