@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Add and subtract</title>
+</head>
+<body>
+    <main>
+    <figure class="product selected"> 
+        <img src="img/camaro.png" alt="">
+        <figcaption>Camaro <span>430.000DKK</span></figcaption>
+        <div class="buttons">
+            <button class="addToCart">Add</button>
+            <button class="removeFromCart">Remove</button>
+        </div> 
+        <input class="amount" type="text" id="amount" value=0>
+        </figure>
+        <figure class="product"> 
+           <img src="img/touareg.png" alt="">
+          <figcaption>Touareg <span>870.000DKK</span></figcaption>
+          <div class="buttons">
+            <button class="addToCart">Add</button>
+            <button class="removeFromCart">Remove</button>
+    </div> 
+    <input class="amount" type="text" id="amount" value=0>
+</figure>
+          <figure class="product"> 
+             <img src="img/sr6.jpg" alt="">
+            <figcaption>SR6 <span>1.340.000DKK</span></figcaption>
+          <div class="buttons">
+            <button class="addToCart">Add</button>
+            <button class="removeFromCart">Remove</button>
+    </div> 
+    <input class="amount" type="text" id="amount" value=0>
+</figure>
+
+<div id="cartDisplay">
+    <h2>Summary</h2>
+    <ul id="cartItems"></ul>
+    <p id="totalAmount">Total amount: 0DKK</p>
+</main>
+
+</body>
+</html>

@@ -3,7 +3,7 @@ let i = 0;
 let colorBtn = document.getElementById('myButton');
 
 // function randomColor() { 
-//     return colors[Math.floor(Math.random() * colors.length)];
+//      colors[Math.floor(Math.random() * colors.length)];
 // }
 
 colorBtn.addEventListener('click', function() {
@@ -12,3 +12,9 @@ colorBtn.addEventListener('click', function() {
   })
 
    
+
+  // button.addEventListener("click", function() {
+  //   button.classList.toggle("click")
+  // })
+
+  9
